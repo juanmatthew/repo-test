@@ -1,6 +1,39 @@
+/* 
+
+*{
+    border: 1px dotted red;
+}
+*/
+
+
+
+
 body {
     background: #785599;
     color: azure;
+}
+
+/* grid system styling*/
+.full-width { 
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #d7c0ee;
+    font-weight: bold;
 }
 
 h1 {
@@ -10,4 +43,8 @@ h1 {
 h2 {
     
     color: #d7c0ee;
+}
+
+footer {
+    clear: both;
 }
